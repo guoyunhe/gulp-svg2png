@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  test/node-6:
+    docker:
+      - image: circleci/node:6
+    steps:
+      - checkout
+      - run: 
+          name: Install dependencies
+          command: npm install
+      - run:
+          name: Run tests
+          command: npm test
+  test/node-8:
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - run: 
+          name: Install dependencies
+          command: npm install
+      - run:
+          name: Run tests
+          command: npm test
+workflows:
+  version: 2
+  branch:
+    jobs:
+      - test/node-6
+      - test/node-8
