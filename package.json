@@ -43,6 +43,7 @@
 		"@types/mocha": "^2.2.38",
 		"@types/node": "^7.0.4",
 		"@types/plugin-error": "^0.1.0",
+		"@types/sinon": "^7.0.11",
 		"@types/svg2png": "^4.1.0",
 		"@types/through2": "^2.0.32",
 		"@types/vinyl": "^2.0.0",
@@ -52,8 +53,8 @@
 		"imagesize": "^1.0.0",
 		"mocha": "^2.2.5",
 		"plugin-error": "^1.0.1",
-		"typescript": "^2.1.5",
 		"svg2png": "^4.1.1",
+		"typescript": "^2.1.5",
 		"vinyl": "^2.2.0"
 	}
 }
