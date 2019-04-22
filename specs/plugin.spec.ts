@@ -26,15 +26,11 @@ describe('The "gulp-svg2png" plugin', () => {
 		const image = Helper.createTestFile();
 
 		stream.on('data', (png: any) => {
-			expect(png.path).to.equal('./specs/assets/twitter.png');
+			expect(png.path).to.equal('specs/assets/twitter.png');
 			expect(Helper.isPNG(png.contents)).to.equal(true);
 
 			done();
 		});
-
-		stream.on('error', (err: Error) =>
-			console.error(err)
-		);
 
 		stream.write(image);
 		stream.end();
