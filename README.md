@@ -1,4 +1,4 @@
-# gulp-svg2png [![Build Status](https://travis-ci.org/ryanwholey/gulp-svg2png.svg?branch=master)](https://travis-ci.org/ryanwholey/gulp-svg2png)
+# gulp-svg2png [![CircleCI](https://circleci.com/gh/ryanwholey/gulp-svg2png.svg?style=svg)](https://circleci.com/gh/ryanwholey/gulp-svg2png)
 
 > A gulp plugin for converting SVGs to PNGs.
 
