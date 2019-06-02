@@ -33,7 +33,8 @@
 	"homepage": "https://github.com/ryanwholey/gulp-svg2png",
 	"dependencies": {
 		"map-stream": "0.0.6",
-		"map-stream-limit": "^1.1.0"
+		"map-stream-limit": "^1.1.0",
+		"svg2png": "^4.1.1"
 	},
 	"devDependencies": {
 		"@types/chai": "^3.4.34",
@@ -53,7 +54,6 @@
 		"imagesize": "^1.0.0",
 		"mocha": "^2.2.5",
 		"plugin-error": "^1.0.1",
-		"svg2png": "^4.1.1",
 		"typescript": "^2.1.5",
 		"vinyl": "^2.2.0"
 	}
